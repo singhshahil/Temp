@@ -1,31 +1,4 @@
-#include <ext/pb_ds/assoc_container.hpp> // Common file
-#include <ext/pb_ds/tree_policy.hpp> // Including tree_order_statistics_node_update
-#include <bits/stdc++.h>
-using namespace std;
-using namespace __gnu_pbds;
-#pragma GCC optimize("Ofast")
-#pragma GCC target("avx,avx2,fma")
-// #pragma GCC optimize ("unroll-loops")
-// #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
-// #pragma GCC optimize ("trapv")
-// #pragma GCC optimization ("O3")
-//g++ -static -DONLINE_JUDGE -Wl,--stack=268435456 -O2 -std=c++17
-//g++ -std=c++17 -Wshadow -Wall -o "%e" "%f" -O2 -Wno-unused-result
-//g++ -std=c++17 -Wshadow -Wall -o "%e" "%f" -g  -D_GLIBCXX_DEBUG
-#define endl                    '\n'
-#define ll 			long long
-#define ld			long double
-#define google(x)		cout<<"Case #"<<x<<": ";
-#define pb                      push_back
-#define pob                     pop_back
-#define all(v)                  v.begin(), v.end()
-#define mem(a,x)                memset(a,x,sizeof(a))
-#define sz(x)       		(ll)x.size()
-#define ff                      first
-#define ss                      second
-#define fix(f,n) 		std::fixed<<std::setprecision(n)<<f
-#define pll 			pair<ll,ll>
-#define pii 			pair<int,int>
+
 #define MOD      		1000000007
 #define MOD1   			998244353
 //Time:
